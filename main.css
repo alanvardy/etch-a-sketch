@@ -1,0 +1,37 @@
+#gamebox {
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    width: min-content;
+}
+
+#buttonbox {
+    width: min-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pixel {
+    background-color: white;
+    width: 5px;
+    height: 5px;
+}
+
+body {
+    background-color: rgb(75, 73, 161);
+    color: white;
+    text-align: center;
+}
+
+button {
+    background-color: white;
+    border: 1px solid black;
+    font-size: 2rem;
+    margin-top: 15px;
+    align-self: center;
+    border-radius: 5px;
+}
+
+#gridWidth {
+    margin-top: 5px;
+}
